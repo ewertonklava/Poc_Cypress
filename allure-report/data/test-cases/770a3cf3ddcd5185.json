@@ -1,0 +1,624 @@
+{
+  "uid" : "770a3cf3ddcd5185",
+  "name" : "Efetuar compra no site saucelabs demo",
+  "fullName" : "Efetuar compra no site saucelabs demo",
+  "historyId" : "2ef4c027673d3c50c4cad749f2901beb",
+  "time" : {
+    "start" : 1619531104224,
+    "stop" : 1619531107375,
+    "duration" : 3151
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1619531104227,
+        "stop" : 1619531104228,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given acesso o site saucelabs",
+      "time" : {
+        "start" : 1619531104243,
+        "stop" : 1619531105135,
+        "duration" : 892
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit (\"https://www.saucedemo.com\")",
+        "time" : {
+          "start" : 1619531104244,
+          "stop" : 1619531105130,
+          "duration" : 886
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When inserir os dados do usuario",
+      "time" : {
+        "start" : 1619531105135,
+        "stop" : 1619531105950,
+        "duration" : 815
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get (\"[data-test=username]\")",
+        "time" : {
+          "start" : 1619531105136,
+          "stop" : 1619531105152,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "type (\"standard_user\")",
+        "time" : {
+          "start" : 1619531105152,
+          "stop" : 1619531105498,
+          "duration" : 346
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get (\"[data-test=password]\")",
+        "time" : {
+          "start" : 1619531105498,
+          "stop" : 1619531105506,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "type (\"secret_sauce\")",
+        "time" : {
+          "start" : 1619531105506,
+          "stop" : 1619531105806,
+          "duration" : 300
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get (\"#login-button\")",
+        "time" : {
+          "start" : 1619531105806,
+          "stop" : 1619531105813,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1619531105813,
+          "stop" : 1619531105946,
+          "duration" : 133
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "https://www.saucedemo.com/inventory.html new url",
+        "time" : {
+          "start" : 1619531105946,
+          "stop" : 1619531105946,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When efetuar uma compra",
+      "time" : {
+        "start" : 1619531105950,
+        "stop" : 1619531107372,
+        "duration" : 1422
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get (\"[data-test=add-to-cart-sauce-labs-backpack]\")",
+        "time" : {
+          "start" : 1619531105953,
+          "stop" : 1619531105965,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1619531105965,
+          "stop" : 1619531106069,
+          "duration" : 104
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get (\".shopping_cart_link\")",
+        "time" : {
+          "start" : 1619531106069,
+          "stop" : 1619531106078,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1619531106078,
+          "stop" : 1619531106256,
+          "duration" : 178
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "https://www.saucedemo.com/cart.html new url",
+        "time" : {
+          "start" : 1619531106256,
+          "stop" : 1619531106256,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get (\".btn_action\")",
+        "time" : {
+          "start" : 1619531106256,
+          "stop" : 1619531106271,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1619531106272,
+          "stop" : 1619531106430,
+          "duration" : 158
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "https://www.saucedemo.com/checkout-step-one.html new url",
+        "time" : {
+          "start" : 1619531106430,
+          "stop" : 1619531106430,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get (\"[data-test=firstName]\")",
+        "time" : {
+          "start" : 1619531106430,
+          "stop" : 1619531106444,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "type (\"Ewerton\")",
+        "time" : {
+          "start" : 1619531106444,
+          "stop" : 1619531106702,
+          "duration" : 258
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get (\"[data-test=lastName]\")",
+        "time" : {
+          "start" : 1619531106702,
+          "stop" : 1619531106713,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "type (\"Klava\")",
+        "time" : {
+          "start" : 1619531106713,
+          "stop" : 1619531106929,
+          "duration" : 216
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get (\"[data-test=postalCode]\")",
+        "time" : {
+          "start" : 1619531106929,
+          "stop" : 1619531106940,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "type (\"13600\")",
+        "time" : {
+          "start" : 1619531106940,
+          "stop" : 1619531107150,
+          "duration" : 210
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get (\".btn_primary\")",
+        "time" : {
+          "start" : 1619531107150,
+          "stop" : 1619531107160,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1619531107160,
+          "stop" : 1619531107258,
+          "duration" : 98
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "https://www.saucedemo.com/checkout-step-two.html new url",
+        "time" : {
+          "start" : 1619531107258,
+          "stop" : 1619531107258,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get (\".btn_action\")",
+        "time" : {
+          "start" : 1619531107258,
+          "stop" : 1619531107270,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1619531107271,
+          "stop" : 1619531107369,
+          "duration" : 98
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "https://www.saucedemo.com/checkout-complete.html new url",
+        "time" : {
+          "start" : 1619531107369,
+          "stop" : 1619531107369,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 20,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then compra efetuada com sucesso",
+      "time" : {
+        "start" : 1619531107372,
+        "stop" : 1619531107375,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 33,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Efetuar compra no site DEMO_SAUCELABS"
+  }, {
+    "name" : "feature",
+    "value" : "Efetuar compra no site DEMO_SAUCELABS"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "75e101f7dfa9a598",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619530464712,
+        "stop" : 1619530467585,
+        "duration" : 2873
+      }
+    }, {
+      "uid" : "c95ebd5b50850104",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 10000ms: Expected to find element: `:nth-child(1) > .pricebar > .btn_primary`, but never found it.",
+      "time" : {
+        "start" : 1619528125932,
+        "stop" : 1619528137881,
+        "duration" : 11949
+      }
+    }, {
+      "uid" : "3bd711f21ca0df98",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 10000ms: Expected to find element: `:nth-child(1) > .pricebar > .btn_primary`, but never found it.",
+      "time" : {
+        "start" : 1619469910535,
+        "stop" : 1619469922175,
+        "duration" : 11640
+      }
+    }, {
+      "uid" : "bed31dc56462ac2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619469814822,
+        "stop" : 1619469815308,
+        "duration" : 486
+      }
+    }, {
+      "uid" : "67789e1d9ebc8818",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 10000ms: Expected to find element: `:nth-child(1) > .pricebar > .btn_primary`, but never found it.",
+      "time" : {
+        "start" : 1619468235422,
+        "stop" : 1619468246973,
+        "duration" : 11551
+      }
+    }, {
+      "uid" : "c49f810c384488e9",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 10000ms: Expected to find element: `:nth-child(1) > .pricebar > .btn_primary`, but never found it.",
+      "time" : {
+        "start" : 1619467375004,
+        "stop" : 1619467386714,
+        "duration" : 11710
+      }
+    }, {
+      "uid" : "9e9a7ad930c9795d",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 10000ms: Expected to find element: `:nth-child(1) > .pricebar > .btn_primary`, but never found it.",
+      "time" : {
+        "start" : 1618259188519,
+        "stop" : 1618259200385,
+        "duration" : 11866
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "770a3cf3ddcd5185.json",
+  "parameterValues" : [ ]
+}

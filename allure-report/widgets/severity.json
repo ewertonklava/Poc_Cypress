@@ -1,0 +1,21 @@
+[ {
+  "uid" : "770a3cf3ddcd5185",
+  "name" : "Efetuar compra no site saucelabs demo",
+  "time" : {
+    "start" : 1619531104224,
+    "stop" : 1619531107375,
+    "duration" : 3151
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e17cd872f43c9f5b",
+  "name" : "Efetuar login no site saucelabs demo",
+  "time" : {
+    "start" : 1619531113804,
+    "stop" : 1619531114859,
+    "duration" : 1055
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

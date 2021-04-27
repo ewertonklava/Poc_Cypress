@@ -1,0 +1,145 @@
+{
+  "uid" : "b0d17ddf348541d6",
+  "name" : "Efetuar login no site saucelabs demo",
+  "fullName" : "Efetuar login no site saucelabs demo",
+  "historyId" : "2430ee2d94bc0228c9ee0beaf147a4e2",
+  "time" : {
+    "start" : 1618259206558,
+    "stop" : 1618259207141,
+    "duration" : 583
+  },
+  "status" : "failed",
+  "statusMessage" : "Blocked a frame with origin \"https://www.saucedemo.com\" from accessing a cross-origin frame.",
+  "statusTrace" : "SecurityError: Blocked a frame with origin \"https://www.saucedemo.com\" from accessing a cross-origin frame.\nError: Blocked a frame with origin \"https://www.saucedemo.com\" from accessing a cross-origin frame.\n    at setWindowDocumentProps (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:170585:42)\n    at HTMLIFrameElement.<anonymous> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:171368:11)\n    at HTMLIFrameElement.dispatch (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:92038:27)\n    at HTMLIFrameElement.elemData.handle (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:91846:28)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Blocked a frame with origin \"https://www.saucedemo.com\" from accessing a cross-origin frame.",
+    "statusTrace" : "SecurityError: Blocked a frame with origin \"https://www.saucedemo.com\" from accessing a cross-origin frame.\nError: Blocked a frame with origin \"https://www.saucedemo.com\" from accessing a cross-origin frame.\n    at setWindowDocumentProps (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:170585:42)\n    at HTMLIFrameElement.<anonymous> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:171368:11)\n    at HTMLIFrameElement.dispatch (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:92038:27)\n    at HTMLIFrameElement.elemData.handle (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:91846:28)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1618259206562,
+        "stop" : 1618259206562,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given acesso o site saucelabs",
+      "time" : {
+        "start" : 1618259206576,
+        "stop" : 1618259207140,
+        "duration" : 564
+      },
+      "status" : "failed",
+      "steps" : [ {
+        "name" : "visit (\"https://www.saucedemo.com\")",
+        "time" : {
+          "start" : 1618259206577,
+          "stop" : 1618259206759,
+          "duration" : 182
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "https://www.saucedemo.com visit",
+        "time" : {
+          "start" : 1618259206759,
+          "stop" : 1618259206759,
+          "duration" : 0
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "88388f7422560792",
+      "name" : "login.feature:2021-04-12T20:26:46.764Z",
+      "source" : "88388f7422560792.png",
+      "type" : "image/png",
+      "size" : 95150
+    }, {
+      "uid" : "f6cd3bfcc586e4b2",
+      "name" : "login.feature:2021-04-12T20:26:57.181Z",
+      "source" : "f6cd3bfcc586e4b2.png",
+      "type" : "image/png",
+      "size" : 94909
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Login site DEMO_SAUCELABS"
+  }, {
+    "name" : "tag",
+    "value" : "login"
+  }, {
+    "name" : "feature",
+    "value" : "Login site DEMO_SAUCELABS"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "login" ]
+  },
+  "source" : "b0d17ddf348541d6.json",
+  "parameterValues" : [ ]
+}

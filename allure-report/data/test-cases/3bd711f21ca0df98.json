@@ -1,0 +1,271 @@
+{
+  "uid" : "3bd711f21ca0df98",
+  "name" : "Efetuar compra no site saucelabs demo",
+  "fullName" : "Efetuar compra no site saucelabs demo",
+  "historyId" : "2ef4c027673d3c50c4cad749f2901beb",
+  "time" : {
+    "start" : 1619469910535,
+    "stop" : 1619469922175,
+    "duration" : 11640
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 10000ms: Expected to find element: `:nth-child(1) > .pricebar > .btn_primary`, but never found it.",
+  "statusTrace" : "AssertionError: Timed out retrying after 10000ms: Expected to find element: `:nth-child(1) > .pricebar > .btn_primary`, but never found it.\n    at EfetuarCompraPage.adicionatItem (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/efetuar_compra.feature:154:10)\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/efetuar_compra.feature:244:17)\n    at Context.resolveAndRunStepDefinition (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/efetuar_compra.feature:20490:9)\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/efetuar_compra.feature:19831:35)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 10000ms: Expected to find element: `:nth-child(1) > .pricebar > .btn_primary`, but never found it.",
+    "statusTrace" : "AssertionError: Timed out retrying after 10000ms: Expected to find element: `:nth-child(1) > .pricebar > .btn_primary`, but never found it.\n    at EfetuarCompraPage.adicionatItem (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/efetuar_compra.feature:154:10)\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/efetuar_compra.feature:244:17)\n    at Context.resolveAndRunStepDefinition (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/efetuar_compra.feature:20490:9)\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/efetuar_compra.feature:19831:35)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1619469910539,
+        "stop" : 1619469910539,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given acesso o site saucelabs",
+      "time" : {
+        "start" : 1619469910553,
+        "stop" : 1619469911015,
+        "duration" : 462
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit (\"https://www.saucedemo.com\")",
+        "time" : {
+          "start" : 1619469910553,
+          "stop" : 1619469911011,
+          "duration" : 458
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When inserir os dados do usuario",
+      "time" : {
+        "start" : 1619469911015,
+        "stop" : 1619469911903,
+        "duration" : 888
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get (\"[data-test=username]\")",
+        "time" : {
+          "start" : 1619469911016,
+          "stop" : 1619469911032,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "type (\"standard_user\")",
+        "time" : {
+          "start" : 1619469911032,
+          "stop" : 1619469911358,
+          "duration" : 326
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get (\"[data-test=password]\")",
+        "time" : {
+          "start" : 1619469911358,
+          "stop" : 1619469911369,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "type (\"secret_sauce\")",
+        "time" : {
+          "start" : 1619469911369,
+          "stop" : 1619469911665,
+          "duration" : 296
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get (\"#login-button\")",
+        "time" : {
+          "start" : 1619469911665,
+          "stop" : 1619469911672,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1619469911672,
+          "stop" : 1619469911900,
+          "duration" : 228
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "https://www.saucedemo.com/inventory.html new url",
+        "time" : {
+          "start" : 1619469911900,
+          "stop" : 1619469911900,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When efetuar uma compra",
+      "time" : {
+        "start" : 1619469911903,
+        "stop" : 1619469922175,
+        "duration" : 10272
+      },
+      "status" : "failed",
+      "steps" : [ {
+        "name" : "get (\":nth-child(1) > .pricebar > .btn_primary\")",
+        "time" : {
+          "start" : 1619469911905,
+          "stop" : 1619469921909,
+          "duration" : 10004
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "54cc4f750090334a",
+      "name" : "efetuar_compra.feature:2021-04-26T20:45:21.915Z",
+      "source" : "54cc4f750090334a.png",
+      "type" : "image/png",
+      "size" : 297602
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 13,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Efetuar compra no site DEMO_SAUCELABS"
+  }, {
+    "name" : "feature",
+    "value" : "Efetuar compra no site DEMO_SAUCELABS"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3bd711f21ca0df98.json",
+  "parameterValues" : [ ]
+}

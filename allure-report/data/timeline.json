@@ -1,0 +1,213 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "Efetuar compra no site saucelabs demo",
+    "uid" : "3bd711f21ca0df98",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1619469910535,
+      "stop" : 1619469922175,
+      "duration" : 11640
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Efetuar compra no site saucelabs demo",
+    "uid" : "770a3cf3ddcd5185",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1619531104224,
+      "stop" : 1619531107375,
+      "duration" : 3151
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Efetuar compra no site saucelabs demo",
+    "uid" : "67789e1d9ebc8818",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1619468235422,
+      "stop" : 1619468246973,
+      "duration" : 11551
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Efetuar compra no site saucelabs demo",
+    "uid" : "c49f810c384488e9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1619467375004,
+      "stop" : 1619467386714,
+      "duration" : 11710
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Efetuar login no site saucelabs demo",
+    "uid" : "92442437de388cbf",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1619469927709,
+      "stop" : 1619469928090,
+      "duration" : 381
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Efetuar login no site saucelabs demo",
+    "uid" : "b0d17ddf348541d6",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1618259206558,
+      "stop" : 1618259207141,
+      "duration" : 583
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Efetuar login no site saucelabs demo",
+    "uid" : "e6663373e0cd19b1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1619468252785,
+      "stop" : 1619468253324,
+      "duration" : 539
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Efetuar login no site saucelabs demo",
+    "uid" : "61195ea1fc456339",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1619467393264,
+      "stop" : 1619467393743,
+      "duration" : 479
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Efetuar compra no site saucelabs demo",
+    "uid" : "9e9a7ad930c9795d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1618259188519,
+      "stop" : 1618259200385,
+      "duration" : 11866
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Efetuar login no site saucelabs demo",
+    "uid" : "e17cd872f43c9f5b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1619531113804,
+      "stop" : 1619531114859,
+      "duration" : 1055
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Efetuar login no site saucelabs demo",
+    "uid" : "ead29fec31d0d604",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1619469820789,
+      "stop" : 1619469821862,
+      "duration" : 1073
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Efetuar login no site saucelabs demo",
+    "uid" : "f896a29abc44a047",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1619528143891,
+      "stop" : 1619528144279,
+      "duration" : 388
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Efetuar login no site saucelabs demo",
+    "uid" : "d73f3db804282451",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1619530473535,
+      "stop" : 1619530474529,
+      "duration" : 994
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Efetuar compra no site saucelabs demo",
+    "uid" : "bed31dc56462ac2c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1619469814822,
+      "stop" : 1619469815308,
+      "duration" : 486
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Efetuar compra no site saucelabs demo",
+    "uid" : "c95ebd5b50850104",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1619528125932,
+      "stop" : 1619528137881,
+      "duration" : 11949
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Efetuar compra no site saucelabs demo",
+    "uid" : "75e101f7dfa9a598",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1619530464712,
+      "stop" : 1619530467585,
+      "duration" : 2873
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "timeline"
+}

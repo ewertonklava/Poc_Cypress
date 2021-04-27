@@ -1,0 +1,39 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Efetuar compra no site DEMO_SAUCELABS",
+    "children" : [ {
+      "name" : "Efetuar compra no site saucelabs demo",
+      "uid" : "bc5f1e0dbde4eab",
+      "parentUid" : "c35d4dc9c9419addf68d6342e4922357",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619530464712,
+        "stop" : 1619530467585,
+        "duration" : 2873
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c35d4dc9c9419addf68d6342e4922357"
+  }, {
+    "name" : "Login site DEMO_SAUCELABS",
+    "children" : [ {
+      "name" : "Efetuar login no site saucelabs demo",
+      "uid" : "916b0f2a8f850840",
+      "parentUid" : "60bc2faad5283dc8d9d5d52b24f24950",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619530473535,
+        "stop" : 1619530474529,
+        "duration" : 994
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "60bc2faad5283dc8d9d5d52b24f24950"
+  } ],
+  "name" : "behaviors"
+}

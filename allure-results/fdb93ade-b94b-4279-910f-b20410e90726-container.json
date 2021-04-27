@@ -1,0 +1,1 @@
+{"uuid":"fdb93ade-b94b-4279-910f-b20410e90726","children":["10255f29-bf5c-4352-9f5e-8bee6b99051a"],"befores":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[]}],"afters":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[]}],"name":"Login site DEMO_SAUCELABS"}

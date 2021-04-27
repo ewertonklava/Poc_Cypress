@@ -1,0 +1,1 @@
+{"uuid":"ab149941-0b32-448e-8991-63224a738224","children":["cddcf187-ccb9-4553-9a81-16eda676645f"],"befores":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[]}],"afters":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[]}],"name":"Efetuar compra no site DEMO_SAUCELABS"}
