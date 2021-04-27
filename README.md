@@ -5,7 +5,7 @@
 
 ### Instalando o Cypress
 
-## npm install
+#### npm install
 
 - Instale o Cypress usando npm:
 
@@ -15,24 +15,28 @@ npm install --save-dev cypress cypress-cucumber-preprocessor
 ```
 
 - Ainda dentro da pasta do seu projeto, execute o seguinte comando para que o Cypress termine de criar os arquivos locais:
+
 ```
 npx cypress open
-``
+```
 
 
 ### Executando teste com Allure Repost
 
 - Execute o teste com o comando: 
+
 ```
 npx cypress run --config video=false --browser chrome --env allure=true
 ```
 
 - Gerar o relatório:
+
 ```
 allure generate allure-results —clean
 ```
 
 - Abrir o relatorio gerado em html
+
 ```
 allure open allure-report
 ```
